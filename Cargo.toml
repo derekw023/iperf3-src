@@ -1,5 +1,5 @@
 [package]
-name = "iperf-src"
+name = "iperf3-src"
 version = "0.1.0"
 edition = "2021"
 
