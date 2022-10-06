@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 autotools = "0.2.5"
+libc = "0.2.134"
