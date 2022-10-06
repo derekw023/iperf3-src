@@ -2,7 +2,7 @@ pub fn vendor_iperf() {
     // Compile iperf using autotools with configuration to output a static library
     let dst = autotools::Config::new("iperf")
         .enable_static()
-        .config_option("with-ssl", None)
+        .insource(false)
         .fast_build(true)
         .build();
 
